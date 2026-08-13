@@ -1,0 +1,4 @@
+# Installed on the VPS (Step 5): pip install google-auth google-api-python-client
+# Pin versions actually installed:
+google-auth==2.36.0
+google-api-python-client==2.159.0
