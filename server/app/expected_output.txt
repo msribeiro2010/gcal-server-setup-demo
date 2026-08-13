@@ -1,0 +1,20 @@
+# Step 7 — expected output on the VPS (from run_demo.py, offline harness)
+# ------------------------------------------------------------------------
+# == Step 7a: events().list() — upcoming events (next 7 days) ==
+# Events between 2026-08-13T11:41:00+00:00 and 2026-08-20T11:41:00+00:00:
+#   2026-08-13T09:00:00 -> 2026-08-13T09:30:00  Squad sync
+#   2026-08-13T14:00:00 -> 2026-08-13T14:45:00  1:1 com estagiaria
+#   2026-08-14T08:00:00 -> 2026-08-14T12:00:00  Plantao NAPJe
+#   2026-08-15T10:00:00 -> 2026-08-15T11:30:00  Reuniao de planejamento
+#
+# == Step 7b: events().insert() — create a new event ==
+# Created event: https://www.google.com/calendar/event?eid=evt_publicacao_no_diario_do_gestor
+#   id: evt_publicacao_no_diario_do_gestor
+#
+# == Re-list after insert (should include the new event) ==
+# Events between 2026-08-13T11:41:00+00:00 and 2026-08-20T11:41:00+00:00:
+#   2026-08-13T09:00:00 -> 2026-08-13T09:30:00  Squad sync
+#   2026-08-13T14:00:00 -> 2026-08-13T14:45:00  1:1 com estagiaria
+#   2026-08-14T08:00:00 -> 2026-08-14T12:00:00  Plantao NAPJe
+#   2026-08-15T10:00:00 -> 2026-08-15T11:30:00  Reuniao de planejamento
+#   2026-08-14T09:00:00 -> 2026-08-14T09:15:00  Publicacao no Diario do Gestor
